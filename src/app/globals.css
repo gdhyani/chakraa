@@ -1,8 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
+/* #ff6016 */
 body {
-  background: black;
-  color: white;
+    background: #121215;
+    color: white;
+}
+main {
+    margin-top: 100px;
+}
+.th {
+    color: #ff6016;
+}
+.glass {
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.08);
 }

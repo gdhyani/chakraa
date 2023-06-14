@@ -5,9 +5,15 @@
 body {
     background: #121215;
     color: white;
+    scroll-behavior: smooth;
+    /* position: relative;
+    min-height: 100vh;
+    padding-bottom:300px; */
 }
 main {
     margin-top: 100px;
+    margin-bottom: 10px;
+
 }
 .th {
     color: #ff6016;

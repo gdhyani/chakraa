@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-
+import "./globals.css"
 export default function Footer() {
     return (
-        <div className="bg-white text-black  flex flex-col sm:flex-row">
+        <div className="bg-white text-black  flex flex-col sm:flex-row ">
             <div className="flex flex-col sm:w-1/2 p-10 sm:p-20">
                 <h1 className="font-extrabold text-4xl mb-3">Chakraa</h1>
                 <p className="font-mono">

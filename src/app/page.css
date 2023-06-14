@@ -1,6 +1,7 @@
 .wrapper {
     max-width: 100%;
     overflow: hidden;
+    z-index: -10;
 }
 
 .marquee {
@@ -8,13 +9,18 @@
     overflow: hidden;
     display: inline-block;
     animation: marquee 15s linear infinite;
+    z-index: -10;
 }
 
 .marquee p {
     font-size: 150px;
-    color:transparent;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: red;
+    color: #121215;
+    /* -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: red; */
+    z-index: -10;
+    text-shadow: 1px 1px 0 red, -1px -1px 0 red, 1px -1px 0 red,
+        -1px 1px 0 red, 1px 1px 0 red;
+
 }
 
 @keyframes marquee {

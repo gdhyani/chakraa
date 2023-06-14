@@ -3,7 +3,7 @@
 @tailwind utilities;
 /* #ff6016 */
 body {
-    background: #121215;
+    background: #171717;
     color: white;
     scroll-behavior: smooth;
     /* position: relative;
@@ -27,4 +27,8 @@ main {
 ::selection {
     color: white;
     background: #ff0033;
+}
+
+.bg-custom{
+    background-color: #212121;
 }

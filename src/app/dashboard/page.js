@@ -2,23 +2,6 @@
 
 import { useState } from "react";
 
-async function getData() {
-    console.log('fetching data')
-    const url =
-        "https://unofficial-cricbuzz.p.rapidapi.com/matches/get-schedules?matchType=international";
-    const response = await fetch(url, {
-        method: "GET",
-        headers: {
-            "X-RapidAPI-Key":
-                "92a19212c2msh4f5a03980938d56p1ec234jsnec616317852d",
-            "X-RapidAPI-Host": "unofficial-cricbuzz.p.rapidapi.com",
-        },
-    });
-    const data = await response.text();
-    console.log(data)
-
-}
-
 export default async function Dashboard() {
     const [user_name, setUser_name] = useState("");
     return (

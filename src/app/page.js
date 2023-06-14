@@ -6,7 +6,7 @@ export default function Home() {
         <main className="">
             <section id="landing" className=" px-3 sm:px-5">
                 <div className="flex flex-col pt-24 border ">
-                    <h1 className="text-2xl relative top-10 px-5 font-mono ">
+                    <h1 className="text-2xl relative top-10 px-5 font-mono -z-10">
                         We are
                     </h1>
                     <div className="wrapper">

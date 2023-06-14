@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import "./globals.css"
+
 export default function Footer() {
     return (
         <div className="bg-white text-black  flex flex-col sm:flex-row ">
@@ -59,19 +59,19 @@ export default function Footer() {
                         <Link className="font-mono" href="/">
                             Home
                         </Link>
-                        <Link className="font-mono" href="/">
+                        <Link className="font-mono" href="/about">
                             About
                         </Link>
-                        <Link className="font-mono" href="/">
+                        <Link className="font-mono" href="/services">
                             Our Service
                         </Link>
-                        <Link className="font-mono" href="/">
-                            Client
+                        <Link className="font-mono" href="/influencer">
+                            Influencer
                         </Link>
-                        <Link className="font-mono" href="/">
-                            Company
+                        <Link className="font-mono" href="/brand">
+                            Brand
                         </Link>
-                        <Link className="font-mono" href="/">
+                        <Link className="font-mono" href="/contact">
                             Contact
                         </Link>
                     </div>

@@ -1,6 +1,8 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
 import "./page.css";
+
 export default function Home() {
     return (
         <main className="">
@@ -22,19 +24,20 @@ export default function Home() {
                             We simplify influencer marketing by getting brands
                             and influencers together on the same platform.
                         </h1>
-                        <h1 className="mb-12 px-5 underline border decoration-red-500 h-10 flex items-center font-mono">
+                        <h1 className="mb-12 px-5 underline border decoration-red-600 h-10 flex items-center font-mono">
                             Swipe Down
                         </h1>
                     </div>
                 </div>
             </section>
+
             {/* section-2  */}
             <section id="2nd-landing" className="px-3 sm:px-5 ">
                 <div className="flex sm:flex-row flex-col gap-10  py-5 sm:mx-20">
                     <div className="flex flex-col border m-auto p-16 ">
                         <h1 className="italic">
                             I'm an <br />
-                            <span className="font-bold text-5xl text-red-700  hover:underline">
+                            <span className="font-bold text-5xl text-red-600  hover:underline">
                                 Influencer
                             </span>
                         </h1>
@@ -57,7 +60,7 @@ export default function Home() {
                     <div className="flex flex-col border  m-auto p-16  ">
                         <h1 className="italic">
                             I'm a <br />
-                            <span className="font-bold text-5xl text-red-700 hover:underline">
+                            <span className="font-bold text-5xl text-red-600 hover:underline">
                                 Brand
                             </span>
                         </h1>
@@ -79,10 +82,13 @@ export default function Home() {
                     </div>
                 </div>
             </section>
+
             {/* section 3 */}
             <section className=" flex border mx-3 sm:mx-5 px-4 pt-10">
                 <div className="text-center">
-                    <h1 className="text-5xl sm:text-7xl font-bold">Platforms</h1>
+                    <h1 className="text-5xl sm:text-7xl font-bold">
+                        Platforms
+                    </h1>
                     <h1 className="text-xl font-mono mb-8">we operates in</h1>
                     <div className="flex flex-wrap flex-row text-center justify-center">
                         <Link href="/" className="m-3">
@@ -148,6 +154,30 @@ export default function Home() {
                         deploy for our campaigns:
                     </p>
                 </div>
+            </section>
+
+            {/* section4 */}
+            <section className="h-screen">
+                <div>
+                    
+                </div>
+            </section>
+
+            {/* section5 */}
+            <section className="flex bg-white text-black sm:flex-row flex-col text-center sm:text-left items-center justify-between   py-20 px-20 mt-10 rounded-t-3xl">
+                <div>
+                    <h1 className="text-3xl font-mono">
+                        We would love to hear from{" "}
+                    </h1>
+                    <br />
+                    <h1 className="text-7xl font-black mt-5 sm:mt-0 ">You</h1>
+                </div>
+                <Link
+                    href="/contact"
+                    className="flex flex-row gap-3 hover:scale-110 border-red-600  transition-all mt-12 sm:mt-0 bg-red-600 text-white rounded-xl px-5 py-4 text-2xl"
+                >
+                    Get in Touch <Image src="/arrow.svg" className="w-14" width={10} height={10} alt="arrow"/>
+                </Link>
             </section>
         </main>
     );

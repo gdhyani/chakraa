@@ -146,7 +146,7 @@ export default function Home() {
                             ></Image>
                         </Link>
                     </div>
-                    <p className="sm:px-32 py-3">
+                    <p className="sm:px-32 py-3 font-mono">
                         Every platform has its own demographics, rules and
                         styles, and knowing which platforms are right for the
                         brand is very important. We have a huge pool of

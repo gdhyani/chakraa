@@ -34,32 +34,32 @@ export default function Navbar() {
                 <div className="font-semibold text-white flex flex-col text-3xl" onClick={handleClick}>
                     <Link
                         href="/"
-                        className="px-3 py-5 -skew-x-12 w-80 hover:bg-red-500 hover:text-white rounded"
+                        className="px-3 py-5 -skew-x-12 w-80 hover:bg-redishpink hover:text-white rounded"
                         
                     >
                         Home
                     </Link>
                     <Link
                         href="/about"
-                        className="px-3 py-5 -skew-x-12 w-80 hover:bg-red-500 hover:text-white rounded"
+                        className="px-3 py-5 -skew-x-12 w-80 hover:bg-redishpink hover:text-white rounded"
                     >
                         About
                     </Link>
                     <Link
                         href="/influencer"
-                        className="px-3 py-5 -skew-x-12 w-80 hover:bg-red-500 hover:text-white rounded"
+                        className="px-3 py-5 -skew-x-12 w-80 hover:bg-redishpink hover:text-white rounded"
                     >
                         Influencer
                     </Link>
                     <Link
                         href="/brand"
-                        className="px-3 py-5 -skew-x-12 w-80 hover:bg-red-500 hover:text-white rounded"
+                        className="px-3 py-5 -skew-x-12 w-80 hover:bg-redishpink hover:text-white rounded"
                     >
                         Brand
                     </Link>
                     <Link
                         href="/contact"
-                        className="px-3 py-5 -skew-x-12 w-80 hover:bg-red-500 hover:text-white rounded"
+                        className="px-3 py-5 -skew-x-12 w-80 hover:bg-redishpink hover:text-white rounded"
                     >
                         Contact
                     </Link>

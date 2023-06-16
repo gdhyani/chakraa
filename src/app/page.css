@@ -18,9 +18,21 @@
     /* -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: red; */
     z-index: -10;
-    text-shadow: 1px 1px 0 red, -1px -1px 0 red, 1px -1px 0 red,
-        -1px 1px 0 red, 1px 1px 0 red;
+    text-shadow: 1px 1px 0 #ff0046, -1px -1px 0 #ff0046, 1px -1px 0 #ff0046,
+    -1px 1px 0 #ff0046, 1px 1px 0 #ff0046;
+}
+.outlineShadow{
+    color: #171717;
+    text-shadow: 1px 1px 0 white, -1px -1px 0 white, 1px -1px 0 white,
+    -1px 1px 0 white, 1px 1px 0 white;
 
+}
+/* .carosel::-webkit-scrollbar {
+    display: none;
+  } */
+.outlineShadow:hover{
+    text-shadow: 1px 1px 0 #ff0046, -1px -1px 0 #ff0046, 1px -1px 0 #ff0046,
+    -1px 1px 0 #ff0046, 1px 1px 0 #ff0046;
 }
 
 @keyframes marquee {

@@ -56,7 +56,7 @@ export default function Home() {
                             We simplify influencer marketing by getting brands
                             and influencers together on the same platform.
                         </h1>
-                        <h1 className="mb-12 px-5 underline border decoration-red-600 h-10 flex items-center font-mono">
+                        <h1 className="mb-12 px-5 underline border decoration-redishpink h-10 flex items-center font-mono">
                             Swipe Down
                         </h1>
                     </div>
@@ -69,7 +69,7 @@ export default function Home() {
                     <div className="flex flex-col border m-auto p-16 ">
                         <h1 className="italic">
                             I'm an <br />
-                            <span className="font-bold text-5xl text-red-600  hover:underline">
+                            <span className="not-italic font-extrabold text-5xl text-redishpink  hover:underline">
                                 Influencer
                             </span>
                         </h1>
@@ -92,7 +92,7 @@ export default function Home() {
                     <div className="flex flex-col border  m-auto p-16  ">
                         <h1 className="italic">
                             I'm a <br />
-                            <span className="font-bold text-5xl text-red-600 hover:underline">
+                            <span className="not-italic font-extrabold text-5xl text-redishpink hover:underline">
                                 Brand
                             </span>
                         </h1>
@@ -118,7 +118,7 @@ export default function Home() {
             {/* section 3 */}
             <section className=" flex border mx-3 sm:mx-5 px-4 pt-10">
                 <div className="text-center">
-                    <h1 className="text-5xl sm:text-7xl font-bold">
+                    <h1 className="text-5xl sm:text-7xl font-bold outlineShadow">
                         Platforms
                     </h1>
                     <h1 className="text-xl font-mono mb-8">we operates in</h1>
@@ -183,26 +183,25 @@ export default function Home() {
                         styles, and knowing which platforms are right for the
                         brand is very important. We have a huge pool of
                         influencers in the above - mentioned platforms, which we
-                        deploy for our campaigns:
+                        deploy for our campaigns.
                     </p>
                 </div>
             </section>
 
             {/* section4 */}
             <section className=" flex flex-col mt-5 border py-5 mx-5 text-center">
-                {/* <div className=""> */}
-                <h1 className="font-bold text-5xl sm:text-7xl mt-10">
-                    What we Do
+                <h1 className="font-bold text-5xl sm:text-7xl mt-10 outlineShadow">
+                    Service
                 </h1>
-                {/* </div> */}
-                <div className="flex sm:flex-row flex-col gap-5 mt-20 sm:px-16 px-7 pb-10">
-                    <div className="sm:border-r-2 sm:border-b-0 border-b-2 border-red-600 sm:overflow-hidden overflow-x-scroll  sm:w-2/6 flex flex-row gap-2 sm:flex-col">
+                <h1 className="font-mono mt-1">What we Do</h1>
+                <div className="flex sm:flex-row flex-col gap-5 mt-16 sm:px-16 px-7 pb-10">
+                    <div className="carosel sm:border-r-2 sm:border-b-0 border-b-2 border-redishpink sm:overflow-hidden overflow-x-scroll  sm:w-2/6 flex flex-row gap-2 sm:flex-col">
                         {section.map((map) => (
                             <button
                                 className={`p-3 ${
                                     carosel == map.value
-                                        ? "bg-red-600"
-                                        : "bg-transparent"
+                                        ? "text-redishpink"
+                                        : "text-white"
                                 }`}
                                 onClick={() => {
                                     changeCaro(map.value);
@@ -237,7 +236,7 @@ export default function Home() {
                 </div>
                 <Link
                     href="/contact"
-                    className="flex flex-row gap-3 hover:scale-110 border-red-600  transition-all mt-12 sm:mt-0 bg-red-600 text-white rounded-xl px-5 py-4 text-2xl"
+                    className="flex flex-row gap-3 hover:scale-110 border-redishpink  transition-all mt-12 sm:mt-0 bg-redishpink text-white rounded-xl px-5 py-4 text-2xl"
                 >
                     Get in Touch{" "}
                     <Image

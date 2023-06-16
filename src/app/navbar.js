@@ -13,7 +13,7 @@ export default function Navbar() {
     return (
         <div className="fixed w-full items-center justify-between flex top-0 p-5 sm:px-10 bg-inherit">
             <div className="justify-between flex w-full">
-                <h1 className={`text-3xl font-extrabold z-30`}>Chakraa</h1>
+                <Link href="/" className={`text-3xl font-extrabold z-30`}>Chakraa</Link>
                 <button className={`z-30 `} onClick={handleClick}>
                     <Hamburger
                     toggled={!openMenu}

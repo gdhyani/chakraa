@@ -3,9 +3,16 @@
 @tailwind utilities;
 /* #ff6016 */
 body {
-    background: #171717;
+    background: #141414;
     color: white;
+    /* color: #9e9e9e; */
+    /* block:#1a1a1a */
+
     scroll-behavior: smooth;
+    background-image: url("../../public/background.svg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     /* position: relative;
     min-height: 100vh;
     padding-bottom:300px; */

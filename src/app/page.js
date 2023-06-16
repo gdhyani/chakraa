@@ -189,12 +189,12 @@ export default function Home() {
             </section>
 
             {/* section4 */}
-            <section className=" flex flex-col mt-5 border py-5 mx-5 text-center">
+            <section className=" flex flex-col mt-5 border py-5 mx-3  sm:mx-5 text-center">
                 <h1 className="font-bold text-5xl sm:text-7xl mt-10 outlineShadow">
                     Service
                 </h1>
                 <h1 className="font-mono mt-1">What we Do</h1>
-                <div className="flex sm:flex-row flex-col gap-5 mt-16 sm:px-16 px-7 pb-10">
+                <div className="flex sm:flex-row flex-col gap-5 mt-16 sm:px-16 px-5 pb-10">
                     <div className="carosel sm:border-r-2 sm:border-b-0 border-b-2 border-redishpink sm:overflow-hidden overflow-x-scroll  sm:w-2/6 flex flex-row gap-2 sm:flex-col">
                         {section.map((map) => (
                             <button

@@ -10,17 +10,27 @@ export default function Navbar() {
         setOpenMenu(!openMenu);
         console.log(openMenu);
     }
+    const [darkTheme, setDarkTheme] = useState(true);
+    function changeTheme() {
+        setDarkTheme(!darkTheme);
+        console.log(darkTheme);
+    }
     return (
         <div className="fixed w-full items-center justify-between flex top-0 p-5 sm:px-10 bg-inherit">
             <div className="justify-between flex w-full">
-                <Link href="/" className={`text-3xl font-extrabold z-30`}>Chakraa</Link>
-                <button className={`z-30 `} onClick={handleClick}>
-                    <Hamburger
-                    toggled={!openMenu}
-                        size={32}
-                        // color={`${openMenu ? "white" : "black"}`}
-                    />
-                </button>
+                <Link href="/" className={`text-3xl font-extrabold z-30`}>
+                    Chakraa
+                </Link>
+                <div className="flex items-center gap-5 ">
+                    <button onClick={changeTheme} >{darkTheme?"Light":"Dark"}</button> 
+                    <button className={`z-30 `} onClick={handleClick}>
+                        <Hamburger
+                            toggled={!openMenu}
+                            size={32}
+                            // color={`${openMenu ? "white" : "black"}`}
+                        />
+                    </button>
+                </div>
             </div>
             <div
                 className={`
@@ -31,20 +41,17 @@ export default function Navbar() {
                 {/* <div className="font-semibold text-black flex flex-col">
                     <h1>Chakraa</h1>
                 </div> */}
-                <div className="font-semibold text-white flex flex-col text-3xl" onClick={handleClick}>
+                <div
+                    className="font-semibold text-white flex flex-col text-3xl"
+                    onClick={handleClick}
+                >
                     <Link
                         href="/"
                         className="px-3 py-5 -skew-x-12 w-80 hover:bg-redishpink hover:text-white rounded"
-                        
                     >
                         Home
                     </Link>
-                    <Link
-                        href="/about"
-                        className="px-3 py-5 -skew-x-12 w-80 hover:bg-redishpink hover:text-white rounded"
-                    >
-                        About
-                    </Link>
+
                     <Link
                         href="/influencer"
                         className="px-3 py-5 -skew-x-12 w-80 hover:bg-redishpink hover:text-white rounded"
@@ -63,7 +70,10 @@ export default function Navbar() {
                     >
                         Contact
                     </Link>
-                    <div href="/" className="text-base font-normal flex flex-row gap-2 justify-center absolute bottom-16 right-0 left-0">
+                    <div
+                        href="/"
+                        className="text-base font-normal flex flex-row gap-2 justify-center absolute bottom-16 right-0 left-0"
+                    >
                         <Link className="hover:underline" href="/">
                             Facebook
                         </Link>

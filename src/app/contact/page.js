@@ -22,7 +22,7 @@ export default function Contact() {
                         members who just happen to be remote. Ready to move
                         forward?
                     </h1>
-                    <form method="POST" id="contactForm" className="flex flex-col gap-8 mt-32">
+                    <form method="POST" id="contactForm" className="flex flex-col gap-8 mt-20 sm:mt-28 items-center sm:items-stretch">
                         <input
                             name="name"
                             placeholder="Name"
@@ -57,7 +57,7 @@ export default function Contact() {
                             <option value="Influencer">Influencer</option>
                             <option value="Other">Other</option>
                         </select>
-                        <button className="px-5 py-2 w-max border-2 hover:border-transparent hover:bg-redishpink border-redishpink bg-transparent rounded-xl" type="submit" onClick={()=>{submitForm}}>Get in Touch</button>
+                        <button className=" px-5 py-2 w-max border-2 hover:border-transparent hover:bg-redishpink border-redishpink bg-transparent rounded-xl" type="submit" onClick={()=>{submitForm}}>Get in Touch</button>
                        
                     </form>
                 </div>

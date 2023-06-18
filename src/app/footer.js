@@ -59,9 +59,6 @@ export default function Footer() {
                         <Link className="font-mono" href="/">
                             Home
                         </Link>
-                        <Link className="font-mono" href="/about">
-                            About
-                        </Link>
                         <Link className="font-mono" href="/services">
                             Our Service
                         </Link>

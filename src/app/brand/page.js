@@ -1,5 +1,6 @@
+import GetInTouch from "../components/getInTouch"
 export default function Brand () {
     return(
-        <main>Brand</main>
+        <main><section></section><GetInTouch/></main>
     )
 }

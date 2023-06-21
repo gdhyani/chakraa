@@ -1,6 +1,5 @@
-'use client'
+"use client";
 import { useState } from "react";
-
 
 const section = [
     {
@@ -44,6 +43,7 @@ export default function Influ_serv() {
                 <div className="carosel sm:border-r-2 sm:border-b-0 border-b-2 border-redishpink sm:overflow-hidden overflow-x-scroll  sm:w-2/6 flex flex-row gap-2 sm:flex-col">
                     {section.map((map) => (
                         <button
+                            key={map.value}
                             className={`p-3 ${
                                 carosel == map.value
                                     ? "text-redishpink"
@@ -59,7 +59,7 @@ export default function Influ_serv() {
                 </div>
                 <div className="px-5 sm:w-4/6 mt-5 sm:mt-0">
                     {section.map((map) => (
-                        <h1
+                        <h1 key={map.value}
                             className={`${
                                 carosel == map.value ? "block" : "hidden"
                             } font-mono`}

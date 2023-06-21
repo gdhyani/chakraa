@@ -16,7 +16,7 @@ export default function Navbar() {
         console.log(darkTheme);
     }
     return (
-        <div className="fixed w-full items-center justify-between flex top-0 p-5 sm:px-10 bg-inherit">
+        <div className="fixed w-full items-center justify-between flex top-0 p-5 sm:px-10 bg-inherit z-50">
             <div className="justify-between flex w-full">
                 <Link href="/" className={`text-3xl font-extrabold z-30`}>
                     Chakraa

@@ -12,7 +12,7 @@ export default function Footer() {
                     strategic engagement and polished influencer marketing.
                 </p>
                 <div className="flex flex-row mt-5 gap-3">
-                    <Link className="" href="/">
+                    <Link className="" href="https://www.facebook.com/profile.php?id=100092988917374">
                         <Image
                             height={30}
                             width={30}
@@ -21,7 +21,7 @@ export default function Footer() {
                             src="/facebook.svg"
                         />
                     </Link>
-                    <Link className="" href="/">
+                    <Link className="" href="https://www.instagram.com/chakraa360marketing/ ">
                         <Image
                             height={30}
                             width={30}
@@ -39,7 +39,7 @@ export default function Footer() {
                             src="/twitter.svg"
                         />
                     </Link>
-                    <Link className="" href="/">
+                    <Link className="" href="https://api.whatsapp.com/send/?phone=918506072348">
                         <Image
                             height={30}
                             width={30}

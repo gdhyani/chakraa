@@ -1,0 +1,18 @@
+.outlineShadow{
+    color: #171717;
+    text-shadow: 1px 1px 0 white, -1px -1px 0 white, 1px -1px 0 white,
+    -1px 1px 0 white, 1px 1px 0 white;
+}
+.outlineShadow:hover{
+    text-shadow: 1px 1px 0 #ff0046, -1px -1px 0 #ff0046, 1px -1px 0 #ff0046,
+    -1px 1px 0 #ff0046, 1px 1px 0 #ff0046;
+}
+.outlineShadow2{
+    text-shadow: 1px 1px 0 #ff0046, -1px -1px 0 #ff0046, 1px -1px 0 #ff0046,
+    -1px 1px 0 #ff0046, 1px 1px 0 #ff0046;
+}
+.glass {
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+    box-shadow: inset 0 0 0 200px rgba(255, 255, 255, 0.08);
+}

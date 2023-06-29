@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import "./contact.css";
+import Faq from "../components/faq";
 export default function Contact() {
     const [formData, setFormData] = useState({
         name: "",
@@ -62,6 +63,7 @@ export default function Contact() {
                     </form>
                 </div>
             </section>
+            <Faq/>
         </main>
     );
 }

@@ -1,3 +1,4 @@
+import Faq from "../components/faq";
 import GetInTouch from "../components/getInTouch";
 import "../page.css";
 import Image from "next/image";
@@ -50,6 +51,7 @@ export default function Brand() {
                     ></Image>
                 </div>
             </section>
+            <Faq/>
             <GetInTouch />
         </main>
     );

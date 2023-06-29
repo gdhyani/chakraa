@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+    plugins: [require("daisyui")],
     content: [
         "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
         "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
@@ -8,8 +9,8 @@ module.exports = {
     theme: {
         extend: {
             colors: {
-                'redishpink': "#ff0046",
-                'border':"#9e9e9e"
+                redishpink: "#ff0046",
+                border: "#9e9e9e",
             },
             backgroundImage: {
                 "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

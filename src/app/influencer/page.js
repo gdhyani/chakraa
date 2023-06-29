@@ -1,5 +1,6 @@
 import GetInTouch from "../components/getInTouch";
 import Influ_serv from "../components/influ_serv";
+import Faq from "../components/faq";
 import Image from "next/image";
 import "./influencer.css";
 const Itypes = [
@@ -79,7 +80,7 @@ export default function Influencer() {
                     </div>
                 </div>
             </section>
-            <section className="py-28 w-screen">
+            <section className="py-28">
                 <h1 className="mx-10 font-bold text-5xl sm:text-7xl outlineShadow text-center">
                     Influencer{" "}
                     <span className="bg-redishpink outlineShadow2">
@@ -89,22 +90,22 @@ export default function Influencer() {
                 <h1 className="mx-10 mt-5 text-2xl font-mono text-center">
                     We adapt in
                 </h1>
-
-                {/* <div className="-z-10 flex flex-wrap px-3 mt-20 justify-start sm:justify-center">
+                <div className="-z-10 flex px-3 mt-20 justify-start sm:justify-center">
                     {Itypes.map((t) => (
-                        <div className="border-2 glass border-redishpink w-1/2 flex justify-between flex-col sm:w-64 h-80">
-                            <h1 className="text-3xl">
+                        <div className="border-2 glass border-redishpink flex justify-between flex-col sm:w-64 h-80">
+                            <h1 className="text-3xl ">
                                 {Itypes.indexOf(t) + 1}
                             </h1>
-                            <h1 className="text-xl font-bold text-center mb-10">
+                            <h1 className="text-xl w-64 font-bold text-center mb-10">
                                 {t}
                             </h1>
                         </div>
                     ))}
-                </div> */}
+                </div>
             </section>
             <Influ_serv />
-            <GetInTouch></GetInTouch>
+            <Faq />
+            <GetInTouch />
         </main>
     );
 }

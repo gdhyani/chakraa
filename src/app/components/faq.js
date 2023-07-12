@@ -39,16 +39,16 @@ export default function Faq() {
     return (
         <section className="flex flex-col mx-5 py-20">
             <div class="container flex flex-col justify-center p-4 mx-auto md:p-8 ">
-                <div className="flex w-full text-center justify-center">
-                    <p class="px-3 w-fit text-center bg-redishpink justify-center font-medium">
+                <div className="flex w-full justify-start sm:justify-center">
+                    <p class="px-3 w-fit bg-redishpink justify-center font-medium">
                         How it works
                     </p>
                 </div>
 
-                <h2 class="mb-12 text-5xl font-bold text-center sm:text-7xl outlineShadow">
+                <h2 class="mb-12 text-5xl font-bold text-left sm:text-center sm:text-7xl outlineShadow">
                     Frequently Asked Questions
                 </h2>
-                <div class="grid mt-24 gap-10 md:gap-8 sm:p-3 md:grid-cols-2 lg:px-12 xl:px-32">
+                <div class="grid mt-5 sm:mt-24 gap-10 md:gap-8 sm:p-3 md:grid-cols-2 lg:px-12 xl:px-32">
                     {questions.map((map) => (
                         <div key={map.value}>
                             <h3 class="font-semibold font-mono text-xl">

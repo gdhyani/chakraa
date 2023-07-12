@@ -86,7 +86,7 @@ export default function Footer() {
                                 alt="icon"
                                 src="/phone.svg"
                             />
-                            <h1>+91 9999999999</h1>
+                            <h1>8506072348</h1>
                         </div>
                         <div className="flex flex-row gap-2">
                             <Image
@@ -97,7 +97,7 @@ export default function Footer() {
                                 src="/mail.svg"
                             />
 
-                            <h1>support@chakraa.in</h1>
+                            <h1>Chakraa.01@gmail.com</h1>
                         </div>
                     </div>
                 </div>

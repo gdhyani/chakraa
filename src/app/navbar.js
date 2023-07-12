@@ -22,7 +22,7 @@ export default function Navbar() {
                     Chakraa
                 </Link>
                 <div className="flex items-center gap-5 ">
-                    <button onClick={changeTheme} >{darkTheme?"Light":"Dark"}</button> 
+                    {/* <button onClick={changeTheme} >{darkTheme?"Light":"Dark"}</button>  */}
                     <button className={`z-30 `} onClick={handleClick}>
                         <Hamburger
                             toggled={!openMenu}
